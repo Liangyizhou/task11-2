@@ -21,11 +21,10 @@ int main() {
 		}
 
 		merge(out, 3, dstMat);
-
+	}
 	imshow("srcMat", srcMat);
 	imshow("dstMat", dstMat);
 	waitKey(0);
 	}
 
-}
 
